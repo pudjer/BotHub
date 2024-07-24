@@ -1,0 +1,23 @@
+html {
+  font-family: sans-serif
+}
+@media (min-width: 551px) and (max-width: 1060px) {
+  .fjMMpK {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+.fjMMpK {
+  display: grid;
+  justify-items: center;
+  gap: calc(var(--bothub-scale, 1)* 30px);
+}
+@media (max-width: 550px) {
+  .fjMMpK {
+      grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 1061px) {
+  .fjMMpK {
+      grid-template-columns: repeat(3, 1fr);
+  }
+}
